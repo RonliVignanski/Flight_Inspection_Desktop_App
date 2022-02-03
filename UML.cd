@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FlightGearApp.FilesLoaderViewModel" Collapsed="true">
+    <Position X="19.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAJAQgACQAQAggABAAAAgAEABAgAgAAA=</HashCode>
+      <FileName>controls\filesLoaderMVVM\FilesLoaderViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fmodel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.controls.FlightInfo" Collapsed="true">
+    <Position X="11.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAgAAAAAAAAAAAAAAEAAAAACBAAAAAQAAA=</HashCode>
+      <FileName>controls\FlightInfo.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vm" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.FlightInfoViewModel" Collapsed="true">
+    <Position X="13" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCABAAAIKAAAAAAAAAAgQIBAAARAAAAAABjAAA=</HashCode>
+      <FileName>controls\flightInfoMVVM\FlightInfoViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fm" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.FlightInfoModel" Collapsed="true">
+    <Position X="14.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhEgAAAQAQIIkgESSIgAGhgIABAUAAAABAAAAAIQA=</HashCode>
+      <FileName>controls\flightInfoMVVM\FlightInfoModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.FilesParser" Collapsed="true">
+    <Position X="23.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AsAAQhBAQAAEEBABBAAAAAAAAAAAAEIAAQACCABAQAA=</HashCode>
+      <FileName>src\FilesParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.GraphModel" Collapsed="true">
+    <Position X="13.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAhAwAgCQAQAIAGFASAMAAAgAIAACAAVABABAQAAQA=</HashCode>
+      <FileName>controls\graphMVVM\GraphModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="findMostCorr" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.GraphViewModel" Collapsed="true">
+    <Position X="12.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAgCAgAAIAAAAAAIAAAgAIAAAAAEAAEgABoAAA=</HashCode>
+      <FileName>controls\graphMVVM\GraphViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.controls.GraphController" Collapsed="true">
+    <Position X="11.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAACAAgAAAAAAAAIAAAAAEAAAAACAAACAAQAAA=</HashCode>
+      <FileName>controls\GraphController.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vm" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.FindCorrelation" Collapsed="true">
+    <Position X="14.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACBIAABAAAAAAAAAQAAAAAEACAAAAAAAIAAACA=</HashCode>
+      <FileName>src\FindCorrelation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.TimeControllerModel" Collapsed="true">
+    <Position X="22.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACBEAAAAAgYAIAAEAAAwCAAgAABQAAgAAAwgAAAMQI=</HashCode>
+      <FileName>controls\timeConrollerMVVM\TimeControllerModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fgClient" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.TimeControllerViewModel" Collapsed="true">
+    <Position X="21" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAMAQAAAAACAAgAIBSQAgAAAAAAAwAAI=</HashCode>
+      <FileName>controls\timeConrollerMVVM\TimeControllerViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="timeControllerModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.controls.TimeController" Collapsed="true">
+    <Position X="19.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAIAEEAAAAAAAgBAABAAAAAAAAAAQAFA=</HashCode>
+      <FileName>controls\TimeController.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="timeControllerVM" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.Line" Collapsed="true">
+    <Position X="15.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAQAAAAAAAAA=</HashCode>
+      <FileName>src\Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlightGearApp.windows.SettingsWindow" Collapsed="true">
+    <Position X="18.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>windows\SettingsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="flViewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.FilesLoaderModel" Collapsed="true">
+    <Position X="21" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAABEIJQAgAAQAAAAiCAAAAoAAFABAABgEAA=</HashCode>
+      <FileName>controls\filesLoaderMVVM\FilesLoaderModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fp" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.WheelControllerModel" Collapsed="true">
+    <Position X="22.5" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABEiAAAQgwAMAgFADAAAQAgAABAAAAEAAAgBAAAQA=</HashCode>
+      <FileName>controls\wheelMVVM\WheelControllerModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.WheelControllerViewModel" Collapsed="true">
+    <Position X="20.75" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgAAAAAAAIAAgAAAAAAAgAIBAAAABAAAAABgACI=</HashCode>
+      <FileName>controls\wheelMVVM\WheelControllerViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="wheelControllerModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.controls.WheelController" Collapsed="true">
+    <Position X="20" Y="14.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAEAAAAACIAAAAAQAAA=</HashCode>
+      <FileName>controls\WheelController.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="wheelControllerVM" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.MyFgClient" Collapsed="true">
+    <Position X="23.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAIAAAQAAAIAAAACAAIAAQAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>src\MyFgClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.windows.AppWindow" Collapsed="true">
+    <Position X="17.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>windows\AppWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.MainWindow" Collapsed="true">
+    <Position X="19.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.InputException" Collapsed="true">
+    <Position X="22.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exceptions\InputException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlightGearApp.controls.DllAlgorithmGraphModel" Collapsed="true">
+    <Position X="19.5" Y="18" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAABEAqAIAgEAAAAJgABACAgAAABAAQAQAAE=</HashCode>
+      <FileName>controls\dllAlgorithmGraphMVVM\DllAlgorithmGraphModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.controls.DllAlgorithmGraphViewModel" Collapsed="true">
+    <Position X="18.25" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAgAAqAIAAAAAAAAgAAAAAAAAAAAAAUIAAA=</HashCode>
+      <FileName>controls\dllAlgorithmGraphMVVM\DllAlgorithmGraphViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.controls.DllAlgorithmAndGraphHandlerMVVM.DllAlgorithmHandlerModel" Collapsed="true">
+    <Position X="19.5" Y="20.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFEAIAAAgIAAAAAgAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>controls\dllAlgorithmHandlerMVVM\DllAlgorithmHandlerModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.controls.DllAlgorithmAndGraphHandlerMVVM.DllAlgorithmHandlerViewModel" Collapsed="true">
+    <Position X="17.75" Y="19" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAIAAAAIAAAAAgAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>controls\dllAlgorithmHandlerMVVM\DllAlgorithmHandlerViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.windows.DllAlgorithmGraph" Collapsed="true">
+    <Position X="16.25" Y="17.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAIAIAAAAAAEAgAAAAAAgAAAACABAAAA=</HashCode>
+      <FileName>windows\DllAlgorithmGraph.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vm" />
+      <Field Name="writeYoureOwnAlgorithmWindow" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.controls.DllAlgorithmHandler" Collapsed="true">
+    <Position X="16.25" Y="20.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAkAIAAQAIAAAAAgAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>controls\DllAlgorithmHandler.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vm" />
+      <Field Name="loadDllAlgorithm" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.windows.WriteYoureOwnAlgorithmWindow" Collapsed="true">
+    <Position X="11.25" Y="17.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>windows\WriteYoureOwnAlgorithmWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlightGearApp.windows.LoadDllAlgorithm" Collapsed="true">
+    <Position X="12.75" Y="20.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAABEAIAAAgACAAABgABAAAAAAgAAAQAQAAE=</HashCode>
+      <FileName>windows\LoadDllAlgorithm.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="FlightGearApp.IFgClient" Collapsed="true">
+    <Position X="22.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAQAAAAAAAACAAAAAQAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>interfaces\IFgClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FlightGearApp.IFilesParser" Collapsed="true">
+    <Position X="23.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AsAAQABAAAAAEBABBAAAAAAAAAAAAEAAAQACCAAAAAA=</HashCode>
+      <FileName>interfaces\IFilesParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

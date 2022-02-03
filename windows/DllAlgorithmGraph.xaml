@@ -1,0 +1,22 @@
+﻿<Window x:Class="FlightGearApp.windows.DllAlgorithmGraph"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlightGearApp.windows" xmlns:oxy="http://oxyplot.org/wpf"
+        mc:Ignorable="d"
+        Title="DllAlgorithmGraph" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="XML_data_strings" Padding="10" SelectionChanged="XML_data_strings_SelectionChanged"
+                  Text="{Binding VM_SelectedDataName}"
+                  ItemsSource="{Binding select, Mode=OneWay}" Height="40" Margin="10,50,369,331"/>
+        <oxy:PlotView Model="{Binding VM_Graph}" Margin="10,115,369,57" />
+        <Label Content="Select Item:" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" Width="118" FontWeight="Bold" />
+        <Label x:Name="content" Content="{Binding VM_SelectedDataName}" FontSize="10"  HorizontalAlignment="Left" Margin="34,123,0,0" VerticalAlignment="Top" Width="114" Height="29" FontWeight="Bold"/>
+        <Label Content="Anomalies:" HorizontalAlignment="Left" Margin="574,55,0,0" VerticalAlignment="Top" Width="143" Height="29" FontWeight="Bold"/>
+        <ListBox x:Name="ListBox" ItemsSource="{Binding VM_Anomalies}" HorizontalAlignment="Left" Height="249" Margin="451,115,0,0" VerticalAlignment="Top" Width="322" SelectionChanged="ListBox_SelectionChanged"/>
+        <Label Content="choose anomaly-report to view anomaly on FG:" HorizontalAlignment="Left" Margin="483,84,0,0" VerticalAlignment="Top" Width="260"/>
+        <Button Content="Write your own Algorithm!" HorizontalAlignment="Left" Margin="581,10,0,0" VerticalAlignment="Top" Width="192" Click="Button_Click"/>
+
+    </Grid>
+</Window>

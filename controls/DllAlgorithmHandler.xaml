@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="FlightGearApp.controls.DllAlgorithmHandler"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FlightGearApp.controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="80" d:DesignWidth="225">
+    <Grid>
+        <Button x:Name="Font" FontSize="9" Content="set Anomalies-Detection Algorithm"
+                HorizontalAlignment="Left" Margin="30,32,0,0" VerticalAlignment="Top"
+                Width="165" RenderTransformOrigin="0.393,0.369" Height="20" Click="Set_Anomalies_Detection_Algorithm" FontWeight="Bold" />
+    </Grid>
+</UserControl>

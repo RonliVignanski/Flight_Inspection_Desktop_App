@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="FlightGearApp.controls.GraphController"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:oxy="http://oxyplot.org/wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="450">
+    <StackPanel>
+        <!--Menu-->
+        <TextBlock Text="Choose graph property" FontSize="21" FontWeight="UltraBold" Height="40" Margin="10,0,-0.4,0" FontFamily="Lucida Handwriting"></TextBlock>
+        <ComboBox x:Name="XML_data_strings" Padding="10" SelectionChanged="XML_data_strings_SelectionChanged"
+                  Text="{Binding VM_SelectedDataName}"
+                  ItemsSource="{Binding select, Mode=OneWay}" Height="40" Margin="0,0,144.6,0"/>
+
+        <!--Show Graphs-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <oxy:PlotView Model="{Binding VM_ModelGraph}" Margin="0,0,10.8,-130" Height="180" />
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <oxy:PlotView Model="{Binding VM_ModelCorrelationGraph}" Margin="0,0,0.8,-130" Height="181" />
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1">
+                <oxy:PlotView Model="{Binding VM_RegLine}" Margin="32,131,41,-338" />
+            </Grid>
+        </Grid>
+    </StackPanel>
+</UserControl>
